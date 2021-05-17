@@ -8,11 +8,11 @@ public class One
     {
         try
         {
-            FileInputStream fileInputStream = new FileInputStream("/home/probel/Документы/VSCode/Java/Project2/src/a1.txt");
+            FileInputStream fileInputStream = new FileInputStream("C:\\VSCode\\Java\\Project2\\src\\a2.txt");
             int i;
             while((i=fileInputStream.read())!= -1)
             {
-                System.out.print((char)i);
+                System.out.print((int)i);
             }
         }   
         catch (FileNotFoundException e)
