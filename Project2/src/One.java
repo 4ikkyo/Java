@@ -7,7 +7,7 @@ public class One
     {
         try 
         {
-        BufferedReader in = new BufferedReader(new FileReader("C:\\VSCode\\Java\\Project2\\src\\a1.txt"));
+        BufferedReader in = new BufferedReader(new FileReader("Java/Project2/src/a1.txt"));
         String s = in.readLine();
         String[] strScores = s.split(" ");
         int sum1 = 0;
