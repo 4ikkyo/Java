@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "Project2/src"
+        "Project2/src",
+        "Project1/src"
     ]
 }
